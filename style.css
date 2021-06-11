@@ -42,15 +42,17 @@ h1.logo_title img {
 
 #gnb > ul > li {
   float: left;
-  width: 150px;
+  width: 100px;
   padding: 5px 0;
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
   font-size: 14px;
   text-align: center;
 }
 
 #gnb > ul > li.event {
   background: #1860c9;
+  padding-right: 40px;
+  margin-left: 2em;
 }
 
 #gnb > ul > li.event > a > span {
