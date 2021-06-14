@@ -53,6 +53,19 @@ h1.logo_title img {
   background: #1860c9;
   padding-right: 40px;
   margin-left: 2em;
+  position: relative;
+}
+/* 가상요소로 박스를 좌측에 만듬 */
+#gnb > ul > li.event:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 30px;
+  /* background: red; */
+  position: absolute;
+  left: -20px; top: 0;
+  background-image: url(images/event-triangle-bg.svg);
+
 }
 
 #gnb > ul > li.event > a > span {
