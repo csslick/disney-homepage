@@ -112,13 +112,26 @@ section {
   text-align: center;
 }
 
-#disney {
+#disney, #marvel, #starwars {
   background-color: #ccc;
-  background-image: url(images/bg-d.jpg);
   background-size: cover;
   background-position: center center;
 }
+#disney {
+  background-image: url(images/bg-d.jpg);
+  background-attachment: fixed;
+}
+#marvel {
+  background-image: url(images/bg-m.jpg);
+  background-attachment: fixed;
+}
+#starwars {
+  background-image: url(images/bg-s.jpg);
+}
 
+.section_nav {
+  margin-top: 1.5em;
+}
 .section_nav > ul > li {
   display: inline-block;
   color: #fff;
@@ -138,4 +151,42 @@ section {
 .section_group {
   /* outline: 2px solid red; */
   padding-top: 170px;
+}
+
+/* footer
+  height: 50px, 
+  bgcolor: #363636 
+  text: #9b9b9b
+*/
+#main_footer {
+  background: #363636;
+  color: #9b9b9b;
+  height: 50px;
+  padding: 0 50px;
+}
+#main_footer a {
+  color: #9b9b9b;
+}
+.copy {
+  font-size: 10px;
+}
+.footer_nav {
+  font-size: 12px;
+}
+
+.left {
+  float: left;
+  margin-top: 10px;
+}
+.footer_logo {
+  vertical-align: middle;
+  margin-right: 1em;
+}
+.right {
+  float: right;
+  margin-top: 16px;
+}
+.footer_nav > li {
+  display: inline-block;
+  margin-left: 2em;
 }
