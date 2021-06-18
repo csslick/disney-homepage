@@ -132,11 +132,11 @@ section {
 }
 #disney {
   background-image: url(images/bg-d.jpg);
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 #marvel {
   background-image: url(images/bg-m.jpg);
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 #starwars {
   background-image: url(images/bg-s.jpg);
